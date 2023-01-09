@@ -11,7 +11,7 @@ const Payment = ({route}) => {
   
 
   const location = useLocation();
-  // console.log(location.state.total);
+  console.log(location.state.total);
   return (
       <>
     <div className="app-container">
@@ -19,7 +19,11 @@ const Payment = ({route}) => {
       <p>PAYMENT DETAILS</p>
       <div className="middle-box">
         <h1>
+<<<<<<< HEAD
               <span>${location.state.total}</span>
+=======
+              <span>{location.state.total}$</span>
+>>>>>>> d14d0b4fdb14943b2d54bc41a696c065754379bf
         </h1>
         <p>Pay To CodeBreaker Ltd.</p>
       </div>
