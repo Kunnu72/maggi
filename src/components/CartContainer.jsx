@@ -29,7 +29,7 @@ const CartContainer = () => {
     }, 0);
     setTot(totalPrice);
     console.log(tot);
-  }, [tot, flag]);
+    }, [tot, flag]);
 
   const clearCart = () => {
     dispatch({
@@ -103,12 +103,12 @@ const CartContainer = () => {
 
             {user ? (
 
-              
+              //We'll finish devops by tommorow
               <motion.button
                 whileTap={{ scale: 0.8 }}
                 type="button"
                 className="w-full p-2 rounded-full bg-gradient-to-tr from-orange-400 to-orange-600 text-gray-50 text-lg my-2 hover:shadow-lg"
-                onClick={() => navigate("/Payment",)}>
+                onClick={() => navigate("/Payment", { state: { total: tot + 2.5 } })}>
               
                 Check Out
               </motion.button>

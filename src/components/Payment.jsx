@@ -3,7 +3,6 @@ import "./styles/payment.css";
 import {Route, useNavigate} from "react-router-dom";
 import { useState } from "react";
 import { useLocation } from 'react-router-dom';
- 
 
 const Payment = ({route}) => {
 
@@ -20,7 +19,7 @@ const Payment = ({route}) => {
       <p>PAYMENT DETAILS</p>
       <div className="middle-box">
         <h1>
-              <span>$</span>
+              <span>${location.state.total}</span>
         </h1>
         <p>Pay To CodeBreaker Ltd.</p>
       </div>
