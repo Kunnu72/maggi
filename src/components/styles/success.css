@@ -4,7 +4,8 @@
 }
 
 .main{
-  background-color: #f5f3f3; 
+  background-color: #e2ebed; 
+  min-height: 100vh;
 }
 
 .green-tick{
@@ -18,13 +19,18 @@
 
 .hide{
     margin: 5%;
-    width: 400px;
+    /* width: 400px; */
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    font-size: larger;
     text-align: center;
 }
 .hide h1{
     color: #3ab449;
     
+}
+
+.hehe{
+     font-size:40px;
 }
