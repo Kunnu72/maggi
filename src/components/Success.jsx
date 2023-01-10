@@ -14,9 +14,9 @@ const Success = () => {
       />
     </div>
     <div className="hide">
-      <p />
-      <b><h1>Order Placed Successfully!!!</h1></b>
-      <p />
+      
+      <h1 className="hehe" >Order Placed Successfully!!!</h1>
+      
     </div>
   </div>
 </>
